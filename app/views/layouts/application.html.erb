@@ -14,8 +14,8 @@
     <% end %>
   </head>
 
-  <body>
-    <%= render "layouts/topbar" %>
+  <body class="bg-gray-800">
+    <%= render 'layouts/navbar' unless controller_path == 'home' %>
     <%= yield %>
   </body>
 </html>

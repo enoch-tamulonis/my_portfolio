@@ -1,0 +1,44 @@
+<div class="h-[40vh] w-full bg-indigo-500 flex items-center justify-center">
+  <h1 class="text-4xl md:text-6xl font-semibold text-indigo-200 text-center"> Project Showcase </h1>
+</div>
+<div class="min-h-screen w-full relative">
+  <div class="absolute -top-10 w-full">
+    <div class="grid gap-16 lg:gap-0 lg:grid-cols-3 max-w-7xl w-full mx-auto">
+      <%= link_to "https://www.wavclouds.com", class: "hover:-translate-y-1 transition-all duration-250 mx-auto", target: "_new" do %>
+        <div class="max-w-sm w-full h-56 bg-gray-600 rounded-sm border-2 border-blue-200">
+          <%= image_tag "wavclouds-site", class: "w-full h-full object-cover" %>
+        </div>
+        <div class="flex flex-col items-center mt-3">
+          <span class="text-2xl text-blue-100"> Wavclouds </span>
+          <p class="text-gray-200">
+            Music licensing and streaming platform
+          </p>
+        </div>
+      <% end %>
+
+      <%= link_to "https://www.tapinspect.com", class: "hover:-translate-y-1 transition-all duration-250 mx-auto", target: "_new" do %>
+        <div class="max-w-sm w-full h-56 bg-gray-600 rounded-sm border-2 border-blue-200">
+          <%= image_tag "tapinspect-site", class: "w-full h-full object-cover" %>
+        </div>
+        <div class="flex flex-col items-center mt-3">
+          <span class="text-2xl text-blue-100"> Tap Inspect </span>
+          <p class="text-gray-200">
+            Home inspection mobile app
+          </p>
+        </div>
+      <% end %>
+
+      <%= link_to "https://4beautymedspa.com/", class: "hover:-translate-y-1 transition-all duration-250 mx-auto", target: "_new" do %>
+        <div class="max-w-sm w-full h-56 bg-gray-600 rounded-sm border-2 border-blue-200">
+          <%= image_tag "4beauty-site", class: "w-full h-full object-cover" %>
+        </div>
+        <div class="flex flex-col items-center mt-3">
+          <span class="text-2xl text-blue-100"> 4Beauty </span>
+          <p class="text-gray-200">
+            Plastic Surgery CRM
+          </p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

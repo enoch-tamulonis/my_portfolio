@@ -75,3 +75,5 @@ group :test do
 end
 
 gem "hotwire-livereload", "~> 1.1"
+
+gem "inline_svg", "~> 1.8"
